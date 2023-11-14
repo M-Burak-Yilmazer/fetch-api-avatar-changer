@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  background-color: darkcyan;
+  height: 100vh;
+}
+.project {
+  background-color: darksalmon;
+  text-align: left;
+  border-radius: 10px;
+  width: 400px;
+  margin: auto;
+  border: 2px brown;
+  border-style: double;
+  padding: 1rem;
+  color: white;
+}
+.project img {
+  width: 150px;
+  height: 150px;
+  display: inline;
+  margin: 1rem 6rem;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+}
+.box.bordered {
+  border-radius: 50%;
+}
+.box.bigger {
+  width: 300px;
+  height: 300px;
+}
+.box.changecolor {
+  background-color: aliceblue;
+}
+button {
+  color: blue;
+  background-color: cornsilk;
+  border: none;
+  margin-top: 1rem;
+  font-weight: 500;
+  /* width:100px; */
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
